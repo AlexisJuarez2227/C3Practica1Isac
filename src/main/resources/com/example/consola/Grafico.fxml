@@ -12,10 +12,10 @@
         <Insets bottom="20.0" left="16.0" right="16.0" top="16.0"/>
     </padding>
 
-    <Text text="Ingrece un numero"/>
+    <Text text="Favor de ingresar un numero"/>
     <TextField fx:id="numero"/>
-    <Button text="Agregar" onAction="#btnAgregar"/>
-    <Button text="Sumar" onAction="#btnSuma"/>
+    <Button text="Agregar numero" onAction="#btnAgregar"/>
+    <Button text="Sumar numero" onAction="#btnSuma"/>
     <TextField fx:id="resultado"/>
     <Button text="Salir" onAction="#btnSalir"/>
 </VBox>

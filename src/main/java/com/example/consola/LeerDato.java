@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class LeerDato {
     @FXML
@@ -12,7 +11,7 @@ public class LeerDato {
     private ArrayList<Integer> numeros = new ArrayList<>();
     @FXML
     private TextField numero;
-    private Suma suma =new Suma();
+    private Operacion suma =new Operacion();
     @FXML
     public void btnAgregar(){
         numeros.add(Integer.parseInt(numero.getText()));
